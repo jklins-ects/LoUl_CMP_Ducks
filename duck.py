@@ -20,26 +20,21 @@ class DuckManager:
         self.data = data
         self.duck_list = []
 
-
-    def create_duck_list(self, id:list[str]|str|None = []):
+    def create_duck_list(self):
         """Creates and returns a list of duck objects in the duck manager. Accepts either a string or list0 of strings containing id's. Otherwise if id is omitted it makes all duck data entries into a list of duck objects."""
-        if id:
-            if type(id) == list:
-                #for item in id:
-                self.ducklist = [Duck(duck) for duck in self.data if duck["_id"] in id]
-                    # for duck in self.data:
-                    #     if duck["_id"] == item:
-                    #         self.duck_list.append(Duck(duck))
-            elif type(id) == str:
-                for duck in self.data:
-                        if duck["_id"] == id:
-                            self.duck_list.append(Duck(duck))
-            else:
-                raise ValueError("Id must either be a string or list of strings")
-        else:
-            for duck in self.data:
-                self.duck_list.append(Duck(duck))
+        for duck in self.data:
+            self.duck_list.append(Duck(duck))
         return self.duck_list
+
+    def get_duck_by_id(self, id:list[str]|str = []):
+        if id:
+            return next(filter(lambda duck: duck.id in id, self.duck_list))
+
+    def get_ducks_by_name(self, name: str):
+        return list(filter(lambda duck: duck.name.lower() == name.lower(), self.duck_list))
+    
+    def get_ducks_by_assembler(self, assembler: str):
+        return list(filter(lambda duck: assembler.lower() in duck.assembler.lower(), self.duck_list))
 
     
 
@@ -50,9 +45,10 @@ class DuckManager:
 class Duck:
     def __init__(self, data:dict):
         # Main fields
+        self.raw_data = data
         self.id = data["_id"]
         self.name = data["name"]
-        self.assembler = data["assember"]
+        self.assembler = data["assembler"]
         self.adjectives = data["adjectives"]
         self.derpy = data["derpy"]
         self.bio = data["bio"]
@@ -74,6 +70,8 @@ class Duck:
         self.intelligence = data["stats"]["intelligence"]
         self.kindness = data["stats"]["kindness"]
 
+    def __str__(self):
+        return f"{self.name.title()}, owned by {self.assembler.title()}"
 
 
 
@@ -81,4 +79,8 @@ class Duck:
 
 if __name__ == "__main__":
     manager = DuckManager()
-    print(manager.create_duck_list())
+    for duck in manager.create_duck_list():
+        print(duck)
+    print(manager.get_duck_by_id("69a881b504f2a69eea6979cf"))
+    print(manager.get_ducks_by_name("TEST")[0])
+    print(manager.get_ducks_by_name("Logan"))

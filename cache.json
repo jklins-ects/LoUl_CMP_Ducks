@@ -2,7 +2,6 @@
     {
         "_id": "69a881b504f2a69eea6979cf",
         "name": "test",
-        "assember": "teeeest",
         "adjectives": [
             "test test test"
         ],
@@ -26,12 +25,12 @@
             "kindness": 1,
             "_id": "69a881b504f2a69eea6979d1"
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "teeeest"
     },
     {
         "_id": "69a886bd04f2a69eea6979d7",
         "name": "ninjaman",
-        "assember": "Thomas C",
         "adjectives": [
             "brave",
             "speedy",
@@ -57,12 +56,12 @@
             "kindness": 3000,
             "_id": "69a886bd04f2a69eea6979d9"
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Thomas C"
     },
     {
         "_id": "69a8ea5053e250fdaf139d56",
         "name": "Quibble",
-        "assember": "Ava Miller",
         "adjectives": [
             "curious",
             "sparkly",
@@ -86,12 +85,12 @@
             "intelligence": 9,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Ava Miller"
     },
     {
         "_id": "69a8ea5053e250fdaf139d57",
         "name": "Bloop",
-        "assember": "Mason Carter",
         "adjectives": [
             "goofy",
             "bouncy",
@@ -115,12 +114,12 @@
             "intelligence": 6,
             "kindness": 9
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Mason Carter"
     },
     {
         "_id": "69a8ea5053e250fdaf139d58",
         "name": "Pixel",
-        "assember": "Logan Diaz",
         "adjectives": [
             "precise",
             "focused",
@@ -144,12 +143,12 @@
             "intelligence": 10,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Logan Diaz"
     },
     {
         "_id": "69a8ea5053e250fdaf139d59",
         "name": "Noodle",
-        "assember": "Emma Hayes",
         "adjectives": [
             "wiggly",
             "playful",
@@ -173,12 +172,12 @@
             "intelligence": 5,
             "kindness": 8
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Emma Hayes"
     },
     {
         "_id": "69a8ea5053e250fdaf139d5a",
         "name": "Nimbus",
-        "assember": "Isaac Turner",
         "adjectives": [
             "calm",
             "thoughtful",
@@ -202,12 +201,12 @@
             "intelligence": 8,
             "kindness": 9
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Isaac Turner"
     },
     {
         "_id": "69a8ea5053e250fdaf139d5b",
         "name": "Cricket",
-        "assember": "Tyler Brooks",
         "adjectives": [
             "quick",
             "alert",
@@ -231,12 +230,12 @@
             "intelligence": 7,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Tyler Brooks"
     },
     {
         "_id": "69a8ea5053e250fdaf139d5c",
         "name": "Waffles",
-        "assember": "Grace Lin",
         "adjectives": [
             "cheerful",
             "loyal",
@@ -260,12 +259,12 @@
             "intelligence": 6,
             "kindness": 10
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Grace Lin"
     },
     {
         "_id": "69a8ea5053e250fdaf139d5d",
         "name": "Biscuit",
-        "assember": "Daniel Ortiz",
         "adjectives": [
             "warm",
             "friendly",
@@ -289,12 +288,12 @@
             "intelligence": 5,
             "kindness": 10
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Daniel Ortiz"
     },
     {
         "_id": "69a8ea5053e250fdaf139d5e",
         "name": "Zap",
-        "assember": "Liam Brooks",
         "adjectives": [
             "fast",
             "bold",
@@ -318,12 +317,12 @@
             "intelligence": 6,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Liam Brooks"
     },
     {
         "_id": "69a8ea5053e250fdaf139d5f",
         "name": "Marbles",
-        "assember": "Sophie Bennett",
         "adjectives": [
             "quirky",
             "creative",
@@ -347,12 +346,12 @@
             "intelligence": 8,
             "kindness": 8
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Sophie Bennett"
     },
     {
         "_id": "69a8ea5053e250fdaf139d60",
         "name": "Orbit",
-        "assember": "Ethan Ward",
         "adjectives": [
             "curious",
             "patient",
@@ -376,12 +375,12 @@
             "intelligence": 8,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Ethan Ward"
     },
     {
         "_id": "69a8ea5053e250fdaf139d61",
         "name": "Sprout",
-        "assember": "Olivia Kane",
         "adjectives": [
             "gentle",
             "kind",
@@ -405,12 +404,12 @@
             "intelligence": 6,
             "kindness": 10
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Olivia Kane"
     },
     {
         "_id": "69a8ea5053e250fdaf139d62",
         "name": "Rocket",
-        "assember": "Noah Chen",
         "adjectives": [
             "fast",
             "fearless",
@@ -434,12 +433,12 @@
             "intelligence": 7,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Noah Chen"
     },
     {
         "_id": "69a8ea5053e250fdaf139d63",
         "name": "Pebble",
-        "assember": "Lucas Park",
         "adjectives": [
             "small",
             "steady",
@@ -463,12 +462,12 @@
             "intelligence": 6,
             "kindness": 8
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Lucas Park"
     },
     {
         "_id": "69a8ea5053e250fdaf139d64",
         "name": "Twizzle",
-        "assember": "Amelia Scott",
         "adjectives": [
             "spinny",
             "fun",
@@ -492,12 +491,12 @@
             "intelligence": 6,
             "kindness": 9
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Amelia Scott"
     },
     {
         "_id": "69a8ea5053e250fdaf139d65",
         "name": "Echo",
-        "assember": "Henry Price",
         "adjectives": [
             "observant",
             "quiet",
@@ -521,12 +520,12 @@
             "intelligence": 8,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Henry Price"
     },
     {
         "_id": "69a8ea5053e250fdaf139d66",
         "name": "Tango",
-        "assember": "Jack Rivera",
         "adjectives": [
             "brave",
             "bold",
@@ -550,12 +549,12 @@
             "intelligence": 6,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Jack Rivera"
     },
     {
         "_id": "69a8ea5053e250fdaf139d67",
         "name": "Pogo",
-        "assember": "Ella Martin",
         "adjectives": [
             "bouncy",
             "excited",
@@ -579,12 +578,12 @@
             "intelligence": 5,
             "kindness": 9
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Ella Martin"
     },
     {
         "_id": "69a8ea5053e250fdaf139d68",
         "name": "Blip",
-        "assember": "Caleb Foster",
         "adjectives": [
             "tiny",
             "fast",
@@ -608,12 +607,12 @@
             "intelligence": 7,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Caleb Foster"
     },
     {
         "_id": "69a8ea5053e250fdaf139d69",
         "name": "Mocha",
-        "assember": "Sophia Delgado",
         "adjectives": [
             "cozy",
             "friendly",
@@ -637,12 +636,12 @@
             "intelligence": 6,
             "kindness": 10
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Sophia Delgado"
     },
     {
         "_id": "69a8ea5053e250fdaf139d6a",
         "name": "Bolt",
-        "assember": "Owen Hughes",
         "adjectives": [
             "quick",
             "strong",
@@ -666,12 +665,12 @@
             "intelligence": 6,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Owen Hughes"
     },
     {
         "_id": "69a8ea5053e250fdaf139d6b",
         "name": "Mint",
-        "assember": "Lily Turner",
         "adjectives": [
             "fresh",
             "bright",
@@ -695,12 +694,12 @@
             "intelligence": 7,
             "kindness": 9
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Lily Turner"
     },
     {
         "_id": "69a8ea5053e250fdaf139d6c",
         "name": "Pebbles",
-        "assember": "Aaron Cole",
         "adjectives": [
             "steady",
             "quiet",
@@ -724,12 +723,12 @@
             "intelligence": 6,
             "kindness": 8
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Aaron Cole"
     },
     {
         "_id": "69a8ea5053e250fdaf139d6d",
         "name": "Fizz",
-        "assember": "Chloe Grant",
         "adjectives": [
             "sparkly",
             "energetic",
@@ -753,12 +752,12 @@
             "intelligence": 7,
             "kindness": 8
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Chloe Grant"
     },
     {
         "_id": "69a8ea5053e250fdaf139d6e",
         "name": "Orbit Jr",
-        "assember": "Mason Hale",
         "adjectives": [
             "curious",
             "watchful",
@@ -782,12 +781,12 @@
             "intelligence": 8,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Mason Hale"
     },
     {
         "_id": "69a8ea5053e250fdaf139d6f",
         "name": "Glider",
-        "assember": "Eli Brooks",
         "adjectives": [
             "smooth",
             "calm",
@@ -811,12 +810,12 @@
             "intelligence": 7,
             "kindness": 7
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Eli Brooks"
     },
     {
         "_id": "69a8ea5053e250fdaf139d70",
         "name": "Rumble",
-        "assember": "Tyler Ford",
         "adjectives": [
             "strong",
             "loud",
@@ -840,12 +839,12 @@
             "intelligence": 5,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Tyler Ford"
     },
     {
         "_id": "69a8ea5053e250fdaf139d71",
         "name": "Luna",
-        "assember": "Aria Bennett",
         "adjectives": [
             "dreamy",
             "quiet",
@@ -869,12 +868,12 @@
             "intelligence": 8,
             "kindness": 9
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Aria Bennett"
     },
     {
         "_id": "69a8ea5053e250fdaf139d72",
         "name": "Sprinter",
-        "assember": "Nathan Cook",
         "adjectives": [
             "fast",
             "focused",
@@ -898,12 +897,12 @@
             "intelligence": 6,
             "kindness": 6
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Nathan Cook"
     },
     {
         "_id": "69a8ea5053e250fdaf139d73",
         "name": "Glow",
-        "assember": "Madison Ward",
         "adjectives": [
             "bright",
             "hopeful",
@@ -927,6 +926,7 @@
             "intelligence": 7,
             "kindness": 10
         },
-        "__v": 0
+        "__v": 0,
+        "assembler": "Madison Ward"
     }
 ]
