@@ -21,19 +21,22 @@ class DuckManager:
         self.duck_list = []
 
     def create_duck_list(self):
-        """Creates and returns a list of duck objects in the duck manager. Accepts either a string or list0 of strings containing id's. Otherwise if id is omitted it makes all duck data entries into a list of duck objects."""
+        """Creates and returns a list of duck objects in the duck manager."""
         for duck in self.data:
             self.duck_list.append(Duck(duck))
         return self.duck_list
 
     def get_duck_by_id(self, id:list[str]|str = []):
+        """Accepts either a string or list of strings containing id's and returns the duck with the matching id"""
         if id:
             return next(filter(lambda duck: duck.id in id, self.duck_list))
 
     def get_ducks_by_name(self, name: str):
+        """Accepts a string and returns the duck with the matching name"""
         return list(filter(lambda duck: duck.name.lower() == name.lower(), self.duck_list))
     
     def get_ducks_by_assembler(self, assembler: str):
+        """Accepts a string and returns the duck with the matching assembler, note this currently deos not work"""
         return list(filter(lambda duck: assembler.lower() in duck.assembler.lower(), self.duck_list))
 
     
