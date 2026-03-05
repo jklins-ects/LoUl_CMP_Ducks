@@ -25,10 +25,11 @@ class DuckManager:
         """Creates and returns a list of duck objects in the duck manager. Accepts either a string or list0 of strings containing id's. Otherwise if id is omitted it makes all duck data entries into a list of duck objects."""
         if id:
             if type(id) == list:
-                for item in id:
-                    for duck in self.data:
-                        if duck["_id"] == item:
-                            self.duck_list.append(Duck(duck))
+                #for item in id:
+                self.ducklist = [Duck(duck) for duck in self.data if duck["_id"] in id]
+                    # for duck in self.data:
+                    #     if duck["_id"] == item:
+                    #         self.duck_list.append(Duck(duck))
             elif type(id) == str:
                 for duck in self.data:
                         if duck["_id"] == id:
